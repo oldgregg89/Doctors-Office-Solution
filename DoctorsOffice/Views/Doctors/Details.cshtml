@@ -1,0 +1,31 @@
+@{
+  Layout = "_Layout";
+}
+
+@model DoctorsOffice.Models.Doctor;
+
+<h2>Doctor Details</h2>
+<hr />
+<h3>@Html.DisplayFor(model => model.Name)</h3>
+<h3>@Html.DisplayFor(model => model.Number)</h3>
+
+@if(@Model.Patient.Count == 0)
+{
+  <p>No one has signed up for this </p>
+}
+else
+{
+  <div class="well">
+      <h4 class="col-sm-3">Enrolled Students:</h4>
+      <ul>
+      @foreach(var join in Model.Students)
+      {
+        <li class="col-sm-9">@join.Student.Name</li>
+      }
+      </ul>
+  </div>
+}
+<input type="button" value="Edit Course" onclick="location.href='@Url.Action("Edit", "Courses", new { id = Model.CourseId })';" class="btn btn-primary" />
+<input type="button" value="Delete Course" onclick="location.href='@Url.Action("Delete", "Courses", new { id = Model.CourseId })';" class="btn btn-primary" />
+<input type="button" value="Course List" onclick="location.href='@Url.Action("Index", "Courses")';" class="btn btn-primary" />
+<input type="button" value="Return Home" onclick="location.href='@Url.Action("Index", "Home")';" class="btn btn-primary" />
