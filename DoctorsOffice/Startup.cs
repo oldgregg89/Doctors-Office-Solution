@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using DoctorsOffice.Models;
 
 namespace DoctorsOffice
+{
   public class Startup
   {
     public Startup(IHostingEnvironment env)
