@@ -5,10 +5,10 @@
 ![Docsoffice](https://media.giphy.com/media/3o6Zt9VzOwpWKY7OyQ/giphy.gif)
 <h1 align="center">
 
-#### _Welcome to the doctors office a practice in C# many to many relastionships, 2020 ver 1.0_
+#### _Welcome to the doctors office, a practice in C# many to many relastionships, 2020 ver 1.0_
 
 #### By _Ian Gregg & Taylor Phillips_
-[University_Registrar](https://github.com/oldgregg89/University-Registrar-solution)
+[Doctors_Office](https://github.com/oldgregg89/DoctorsOffice.solution)
 
 ## Description
 

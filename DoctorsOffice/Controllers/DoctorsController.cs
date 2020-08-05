@@ -54,7 +54,7 @@ namespace DoctorsOffice.Controllers
     {
       _db.Entry(doctor).State = EntityState.Modified;
       _db.SaveChanges();
-      return RedirectToAction("Index");
+      return RedirectToAction("Details", new { id = doctor.DoctorId });
     }
 
     public ActionResult Delete(int id)

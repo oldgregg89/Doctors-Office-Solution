@@ -4,8 +4,15 @@ body  {
 }
 
 .container {
-  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 0.70);
   border-style: ridge;
-  border-color: rgba(0, 0, 0, 0.75);
+  border-color: rgba(32, 17, 17, 0.70);
   border-radius: 15px;
+}
+
+h1  {
+  font-family: 'Recursive', sans-serif;
+}
+li {
+  font-family: 'Cinzel', serif;
 }

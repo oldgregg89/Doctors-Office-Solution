@@ -16,5 +16,6 @@
 {
   <li>@Html.ActionLink($"{doctor.Name}", "Details", new { id = doctor.DoctorId }) || @doctor.Name</li>
 }
+<hr>
 <input type="button" value="Add new doctor" onclick="location.href='@Url.Action("Create", "Doctors")';" class="btn btn-primary" />
 <input type="button" value="Return Home" onclick="location.href='@Url.Action("Index", "Home")';" class="btn btn-primary" />
