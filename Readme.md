@@ -7,7 +7,7 @@
 
 #### _Welcome to the doctors office a practice in C# many to many relastionships, 2020 ver 1.0_
 
-#### By _Ian Gregg & Tyson Lackey_
+#### By _Ian Gregg & Taylor Phillips_
 [University_Registrar](https://github.com/oldgregg89/University-Registrar-solution)
 
 ## Description
@@ -50,7 +50,7 @@ _No known bugs_
 
 _Contact Ian Gregg: <iangregg188@gmail.com>
 or 
-Tyson Lackey <lackeyt90@gmail.com>_
+Taylor Phillips <taylorphillips133@gmail.com>_
 
 ## Technologies Used
 
@@ -58,7 +58,7 @@ _The Technologies used in the making of this software was Chrome browser, Visual
 
 ### License
 
-Copyright (c) 2020 **_Ian Gregg & Tyson Lackey_**
+Copyright (c) 2020 **_Ian Gregg & Taylor Phillips_**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
