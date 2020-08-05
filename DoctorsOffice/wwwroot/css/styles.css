@@ -4,13 +4,16 @@ body  {
 }
 
 .container {
-  background-color: rgba(245, 245, 245, 0.70);
+  background-color: rgba(245, 245, 245, 0.75);
   border-style: ridge;
-  border-color: rgba(32, 17, 17, 0.70);
+  border-color: rgba(32, 17, 17, 0.75);
   border-radius: 15px;
 }
 
 h1  {
+  font-family: 'Recursive', sans-serif;
+}
+h2  {
   font-family: 'Recursive', sans-serif;
 }
 li {
