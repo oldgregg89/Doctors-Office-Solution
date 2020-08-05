@@ -11,21 +11,21 @@
 
 @if(@Model.Patient.Count == 0)
 {
-  <p>No one has signed up for this </p>
+  <p>No doctors are showing up.</p>
 }
 else
 {
   <div class="well">
-      <h4 class="col-sm-3">Enrolled Students:</h4>
+      <h4 class="col-sm-3">Current Patients:</h4>
       <ul>
-      @foreach(var join in Model.Students)
+      @foreach(var join in Model.Patient)
       {
-        <li class="col-sm-9">@join.Student.Name</li>
+        <li class="col-sm-9">@join.Patient.Name</li>
       }
       </ul>
   </div>
 }
-<input type="button" value="Edit Course" onclick="location.href='@Url.Action("Edit", "Courses", new { id = Model.CourseId })';" class="btn btn-primary" />
-<input type="button" value="Delete Course" onclick="location.href='@Url.Action("Delete", "Courses", new { id = Model.CourseId })';" class="btn btn-primary" />
-<input type="button" value="Course List" onclick="location.href='@Url.Action("Index", "Courses")';" class="btn btn-primary" />
+<input type="button" value="Edit Doctor" onclick="location.href='@Url.Action("Edit", "Doctors", new { id = Model.DocotrId })';" class="btn btn-primary" />
+<input type="button" value="Delete Doctor" onclick="location.href='@Url.Action("Delete", "Doctors", new { id = Model.DocotrId })';" class="btn btn-primary" />
+<input type="button" value="Doctor List" onclick="location.href='@Url.Action("Index", "Doctors")';" class="btn btn-primary" />
 <input type="button" value="Return Home" onclick="location.href='@Url.Action("Index", "Home")';" class="btn btn-primary" />

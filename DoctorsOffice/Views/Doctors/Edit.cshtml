@@ -1,0 +1,17 @@
+@model DoctorOffice.Models.Course
+
+<h1>Edit this Doctor</h1>
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.Name)
+    @Html.EditorFor(model => model.Name)
+
+    @Html.LabelFor(model => model.Number)
+    @Html.EditorFor(model => model.Number)
+
+    <input type="submit" value="Update Doctor" class="btn btn-default" />
+}
+
+<input type="button" value="Doctor List" onclick="location.href='@Url.Action("Index", "Doctors")';" class="btn btn-primary" />
+<input type="button" value="Return Home" onclick="location.href='@Url.Action("Index", "Home")';" class="btn btn-primary" />

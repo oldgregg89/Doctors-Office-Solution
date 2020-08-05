@@ -1,0 +1,6 @@
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/DoctorsOffice.csprojAssemblyReference.cache
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/DoctorsOffice.csproj.CoreCompileInputs.cache
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/DoctorsOffice.RazorAssemblyInfo.cache
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/DoctorsOffice.RazorAssemblyInfo.cs
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/DoctorsOffice.AssemblyInfoInputs.cache
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/DoctorsOffice.AssemblyInfo.cs

@@ -56,7 +56,7 @@ namespace DoctorsOffice.Controllers
     {
       if (DoctorId != 0)
       {
-      _db.DoctorPatient.Add(new DoctorPatient() { CourseId = CourseId, StudentId = student.StudentId });
+      _db.DoctorPatient.Add(new DoctorPatient() { DoctorId = DoctorId, PatientId = patient.PatientId });
       }
       _db.SaveChanges();
       return RedirectToAction("Index");
@@ -64,41 +64,41 @@ namespace DoctorsOffice.Controllers
 
     public ActionResult Delete(int id)
     {
-      var thisStudent = _db.Students.FirstOrDefault(students => students.StudentId == id);
-      return View(thisStudent);
+      var thisPatient = _db.Patients.FirstOrDefault(patients => patients.PatientId == id);
+      return View(thisPatient);
     }
 
     [HttpPost, ActionName("Delete")]
     public ActionResult DeleteConfirmed(int id)
     {
-      var thisStudent = _db.Students.FirstOrDefault(students => students.StudentId == id);
-      _db.Students.Remove(thisStudent);
+      var thisPatient = _db.Patients.FirstOrDefault(patients => patients.PatientId == id);
+      _db.Patients.Remove(thisPatients);
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
     [HttpPost]
     public ActionResult DeleteCourse(int joinId)
     {
-      var joinEntry = _db.CourseStudent.FirstOrDefault(entry => entry.CourseStudentId == joinId);
-      _db.CourseStudent.Remove(joinEntry);
+      var joinEntry = _db.DoctorPatient.FirstOrDefault(entry => entry.DoctorPatientId == joinId);
+      _db.DoctorPatient.Remove(joinEntry);
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
 
     [HttpPost]
-    public ActionResult Create(Student student, int CourseId)
+    public ActionResult Create(Patient patient, int DoctorId)
     {
-      _db.Students.Add(student);
-    if (CourseId != 0)
+      _db.Patients.Add(patient);
+    if (DoctorId != 0)
     {
-        _db.CourseStudent.Add(new CourseStudent() { CourseId = CourseId, StudentId = student.StudentId });
+        _db.DoctorPatient.Add(new DoctorPatient() { DoctorId = DoctorId, PatientId = patient.PatientId });
     }
     _db.SaveChanges();
     return RedirectToAction("Index");
     }
     public ActionResult Index()
     {
-      List<Student> model = _db.Students.ToList();
+      List<Patient> model = _db.Patients.ToList();
       return View(model);
     }
   }
