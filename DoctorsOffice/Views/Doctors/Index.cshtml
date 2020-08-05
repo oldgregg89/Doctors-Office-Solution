@@ -2,8 +2,8 @@
   Layout = "_Layout";
 }
 
-@using DoctorOffice.Models;
-@model List<DoctorOffice.Models.Doctors>;
+@using DoctorsOffice.Models;
+@model List<DoctorsOffice.Models.Doctor>;
 
 <h1>Doctors</h1>
 
@@ -14,7 +14,7 @@
 
 @foreach (Doctor doctor in Model)
 {
-  <li>@Html.ActionLink($"{doctor.Name}", "Details", new { id = doctor.DoctorId }) || @course.Number</li>
+  <li>@Html.ActionLink($"{doctor.Name}", "Details", new { id = doctor.DoctorId }) || @doctor.Name</li>
 }
 <input type="button" value="Add new doctor" onclick="location.href='@Url.Action("Create", "Doctors")';" class="btn btn-primary" />
 <input type="button" value="Return Home" onclick="location.href='@Url.Action("Index", "Home")';" class="btn btn-primary" />

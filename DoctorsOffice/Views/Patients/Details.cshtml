@@ -1,0 +1,37 @@
+@{
+  Layout = "_Layout";
+}
+
+@model DoctorsOffice.Models.Patient
+
+<h2>Patient Details</h2>
+<hr />
+<h3>Name: @Html.DisplayFor(model => model.Name)</h3>
+<h3>Afflictions: </h3>
+
+
+@if(@Model.Doctors.Count == 0)
+{
+  <p>This patient is not seeing any doctors</p>
+}
+else
+{
+  <h4>Doctors the patient belongs to:</h4>
+  <ul>
+  @foreach(var join in Model.Doctors)
+  {
+    <li>@join.Doctor.Name</li>
+    @using (Html.BeginForm("DeleteDoctor", "Patients"))
+    {
+      @Html.Hidden("joinId", @join.DoctorPatientId)
+      <input type="submit" value="Delete"/>
+    }
+  }
+  </ul>
+}
+
+<input type="button" value="Return Home" onclick="location.href='@Url.Action("Index", "Home")';" class="btn btn-primary" />
+<input type="button" value="Edit Patient" onclick="location.href='@Url.Action("Edit", "Patients", new { id = Model.PatientId })';" class="btn btn-primary" />
+<input type="button" value="Delete Patient" onclick="location.href='@Url.Action("Delete", "Patients", new { id = Model.PatientId })';" class="btn btn-primary" />
+<input type="button" value="Add a Doctor" onclick="location.href='@Url.Action("AddCourse", "Patients", new { id = Model.PatientId })';" class="btn btn-primary" />
+<input type="button" value="Back to list" onclick="location.href='@Url.Action("Index", "Patients")';" class="btn btn-primary" />

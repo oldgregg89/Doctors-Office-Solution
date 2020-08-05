@@ -72,7 +72,7 @@ namespace DoctorsOffice.Controllers
     public ActionResult DeleteConfirmed(int id)
     {
       var thisPatient = _db.Patients.FirstOrDefault(patients => patients.PatientId == id);
-      _db.Patients.Remove(thisPatients);
+      _db.Patients.Remove(thisPatient);
       _db.SaveChanges();
       return RedirectToAction("Index");
     }

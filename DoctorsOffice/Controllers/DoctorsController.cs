@@ -52,7 +52,7 @@ namespace DoctorsOffice.Controllers
     [HttpPost]
     public ActionResult Edit(Doctor doctor)
     {
-      _db.Entry(course).State = EntityState.Modified;
+      _db.Entry(doctor).State = EntityState.Modified;
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
