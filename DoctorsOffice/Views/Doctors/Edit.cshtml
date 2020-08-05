@@ -1,4 +1,8 @@
-@model DoctorsOffice.Models.DoctorsOffice
+@{
+  Layout = "_Layout";
+}
+
+@model DoctorsOffice.Models.Doctor
 
 <h1>Edit this Doctor</h1>
 
@@ -7,11 +11,11 @@
     @Html.LabelFor(model => model.Name)
     @Html.EditorFor(model => model.Name)
 
-    @Html.LabelFor(model => model.Number)
-    @Html.EditorFor(model => model.Number)
+    @Html.LabelFor(model => model.Specialty)
+    @Html.EditorFor(model => model.Specialty)
 
     <input type="submit" value="Update Doctor" class="btn btn-default" />
 }
 
-<input type="button" value="Doctor List" onclick="location.href='@Url.Action("Index", "Doctors")';" class="btn btn-primary" />
+<input type="button" value="Doctors List" location.href='@Url.Action("Index", "Doctors")';" class="btn btn-primary" />
 <input type="button" value="Return Home" onclick="location.href='@Url.Action("Index", "Home")';" class="btn btn-primary" />

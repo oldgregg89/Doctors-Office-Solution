@@ -77,7 +77,7 @@ namespace DoctorsOffice.Controllers
       return RedirectToAction("Index");
     }
     [HttpPost]
-    public ActionResult DeleteCourse(int joinId)
+    public ActionResult DeleteDoctor(int joinId)
     {
       var joinEntry = _db.DoctorPatient.FirstOrDefault(entry => entry.DoctorPatientId == joinId);
       _db.DoctorPatient.Remove(joinEntry);

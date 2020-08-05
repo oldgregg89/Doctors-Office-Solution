@@ -1,0 +1,11 @@
+body  {
+  background-image: url("https://images.pexels.com/photos/48604/pexels-photo-48604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+}
+
+.container {
+  background-color: whitesmoke;
+  border-style: ridge;
+  border-color: rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+}

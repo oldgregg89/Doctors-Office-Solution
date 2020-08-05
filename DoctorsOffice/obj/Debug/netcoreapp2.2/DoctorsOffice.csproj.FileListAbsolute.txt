@@ -21,11 +21,6 @@
 /Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/Razor/Views/Patients/Index.g.cshtml.cs
 /Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Footer.g.cshtml.cs
 /Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
-/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/Razor/Views/Specialty/Create.g.cshtml.cs
-/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/Razor/Views/Specialty/Delete.g.cshtml.cs
-/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/Razor/Views/Specialty/Details.g.cshtml.cs
-/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/Razor/Views/Specialty/Edit.g.cshtml.cs
-/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/Razor/Views/Specialty/Index.g.cshtml.cs
 /Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/DoctorsOffice.RazorTargetAssemblyInfo.cache
 /Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/DoctorsOffice.RazorTargetAssemblyInfo.cs
 /Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/DoctorsOffice.dll
@@ -35,3 +30,12 @@
 /Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/Razor/Views/Specialties/Details.g.cshtml.cs
 /Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/Razor/Views/Specialties/Edit.g.cshtml.cs
 /Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/Razor/Views/Specialties/Index.g.cshtml.cs
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/bin/Debug/netcoreapp2.2/DoctorsOffice.deps.json
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/bin/Debug/netcoreapp2.2/DoctorsOffice.runtimeconfig.json
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/bin/Debug/netcoreapp2.2/DoctorsOffice.runtimeconfig.dev.json
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/bin/Debug/netcoreapp2.2/DoctorsOffice.dll
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/bin/Debug/netcoreapp2.2/DoctorsOffice.pdb
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/bin/Debug/netcoreapp2.2/DoctorsOffice.Views.dll
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/bin/Debug/netcoreapp2.2/DoctorsOffice.Views.pdb
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/DoctorsOffice.Views.pdb
+/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/obj/Debug/netcoreapp2.2/DoctorsOffice.csproj.CopyComplete
