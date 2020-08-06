@@ -12,6 +12,7 @@ namespace DoctorsOffice.Models
     }
     public int PatientId { get; set; }
     public string Name  { get; set; }
+    public string Affliction  { get; set; }
     public ICollection<DoctorPatient> Doctors { get; }
   }
 }

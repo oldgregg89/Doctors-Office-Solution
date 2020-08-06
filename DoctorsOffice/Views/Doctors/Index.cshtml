@@ -14,7 +14,7 @@
 
 @foreach (Doctor doctor in Model)
 {
-  <li>@Html.ActionLink($"{doctor.Name}", "Details", new { id = doctor.DoctorId }) || @doctor.Name</li>
+  <li>@Html.ActionLink($"{doctor.Name}", "Details", new { id = doctor.DoctorId }) || Dr. of @doctor.Specialty</li>
 }
 <hr>
 <input type="button" value="Add new doctor" onclick="location.href='@Url.Action("Create", "Doctors")';" class="btn btn-primary" />
