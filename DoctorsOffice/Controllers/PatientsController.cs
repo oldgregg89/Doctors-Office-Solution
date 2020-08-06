@@ -42,22 +42,6 @@ namespace DoctorsOffice.Controllers
       _db.SaveChanges();
       return RedirectToAction("Details", new {id = patient.PatientId});
     }
-    // public ActionResult AddDoctor(int id)
-    // {
-    // var thisPatient = _db.Patients.FirstOrDefault(patients => patients.PatientId == id);
-    // ViewBag.DoctorId = new SelectList(_db.Doctors, "DoctorId", "Name");
-    // return View(thisPatient);
-    // }
-    // [HttpPost]
-    // public ActionResult AddDoctor(Patient patient, int DoctorId)
-    // {
-    //   if (DoctorId != 0)
-    //   {
-    //   _db.DoctorPatient.Add(new DoctorPatient() { DoctorId = DoctorId, PatientId = patient.PatientId });
-    //   }
-    //   _db.SaveChanges();
-    //   return RedirectToAction("Index");
-    // }
 
     public ActionResult Delete(int id)
     {
