@@ -26,7 +26,7 @@ else
   </div>
 }
 <hr>
-<input
+<input type="button" value="Add Patient to this Doc" onclick="location.href='@Url.Action("Create", "Patients", new { id = Model.DoctorId })';" class="btn btn-outline-primary" />
 <input type="button" value="Edit Doctor" onclick="location.href='@Url.Action("Edit", "Doctors", new { id = Model.DoctorId })';" class="btn btn-primary" />
 <input type="button" value="Delete Doctor" onclick="location.href='@Url.Action("Delete", "Doctors", new { id = Model.DoctorId })';" class="btn btn-primary" />
 <input type="button" value="Doctor List" onclick="location.href='@Url.Action("Index", "Doctors")';" class="btn btn-primary" />
