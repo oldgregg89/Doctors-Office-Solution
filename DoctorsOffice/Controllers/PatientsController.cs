@@ -37,13 +37,10 @@ namespace DoctorsOffice.Controllers
     [HttpPost]
     public ActionResult Edit(Patient patient, int DoctorId)
     {
-      if (DoctorId != 0)
-      {
-        _db.DoctorPatient.Add(new DoctorPatient() { DoctorId = DoctorId, PatientId = patient.PatientId });
-      }
       _db.Entry(patient).State = EntityState.Modified;
+      
       _db.SaveChanges();
-      return RedirectToAction("Details", "Patients", new { id = patient.PatientId  } );
+      return RedirectToAction("Details", new {id = patient.PatientId});
     }
     // public ActionResult AddDoctor(int id)
     // {
