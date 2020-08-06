@@ -7,7 +7,7 @@
 <h2>Patient Details</h2>
 <hr />
 <h3>Name: @Html.DisplayFor(model => model.Name)</h3>
-<h3>Afflictions: </h3>
+<h3>Afflictions: @Html.DisplayFor(model => model.Affliction)</h3>
 
 
 @if(@Model.Doctors.Count == 0)
@@ -33,5 +33,5 @@ else
 <input type="button" value="Return Home" onclick="location.href='@Url.Action("Index", "Home")';" class="btn btn-primary" />
 <input type="button" value="Edit Patient" onclick="location.href='@Url.Action("Edit", "Patients", new { id = Model.PatientId })';" class="btn btn-primary" />
 <input type="button" value="Delete Patient" onclick="location.href='@Url.Action("Delete", "Patients", new { id = Model.PatientId })';" class="btn btn-primary" />
-<input type="button" value="Add a Doctor" onclick="location.href='@Url.Action("AddDoctor", "Patients", new { id = Model.PatientId })';" class="btn btn-primary" />
+@* <input type="button" value="Add a Doctor" onclick="location.href='@Url.Action("AddDoctor", "Patients", new { id = Model.PatientId })';" class="btn btn-primary" /> *@
 <input type="button" value="Back to list" onclick="location.href='@Url.Action("Index", "Patients")';" class="btn btn-primary" />

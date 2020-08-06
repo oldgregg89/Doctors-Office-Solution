@@ -9,9 +9,9 @@
 <h3>@Html.DisplayFor(model => model.Name)</h3>
 <h5>Dr. of @Html.DisplayFor(model => model.Specialty)</h5>
 
-@if(@Model.Patients.Count == 0)
+@if(@Model.Patients.Count() == 0)
 {
-  <p>No doctors are showing up.</p>
+  <p>This doctor has no patients assigned to them yet.</p>
 }
 else
 {
@@ -26,6 +26,7 @@ else
   </div>
 }
 <hr>
+<input
 <input type="button" value="Edit Doctor" onclick="location.href='@Url.Action("Edit", "Doctors", new { id = Model.DoctorId })';" class="btn btn-primary" />
 <input type="button" value="Delete Doctor" onclick="location.href='@Url.Action("Delete", "Doctors", new { id = Model.DoctorId })';" class="btn btn-primary" />
 <input type="button" value="Doctor List" onclick="location.href='@Url.Action("Index", "Doctors")';" class="btn btn-primary" />
