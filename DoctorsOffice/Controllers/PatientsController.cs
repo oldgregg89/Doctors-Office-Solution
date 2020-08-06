@@ -37,8 +37,19 @@ namespace DoctorsOffice.Controllers
     [HttpPost]
     public ActionResult Edit(Patient patient, int DoctorId)
     {
-      _db.Entry(patient).State = EntityState.Modified;
+      var testVariable = _db.DoctorPatient.FirstOrDefault(join => join.PatientId == patient.PatientId && join.DoctorId == DoctorId);
 
+      if(testVariable != null)
+      {
+        _db.Entry(patient).State = EntityState.Modified;
+        _db.SaveChanges();
+        return RedirectToAction("Details", new { id = patient.PatientId});
+      }
+      if (DoctorId != 0)
+      {
+        _db.DoctorPatient.Add(new DoctorPatient() { DoctorId = DoctorId, PatientId = patient.PatientId });
+      }
+      _db.Entry(patient).State = EntityState.Modified;
       _db.SaveChanges();
       return RedirectToAction("Details", new {id = patient.PatientId});
     }
