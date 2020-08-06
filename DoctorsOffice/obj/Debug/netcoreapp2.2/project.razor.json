@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/DoctorsOffice.csproj",
+  "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/DoctorsOffice.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2961,98 +2961,98 @@
   "RootNamespace": "DoctorsOffice",
   "Documents": [
     {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Doctors/Edit.cshtml",
-      "TargetPath": "Views\\Doctors\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Patients/AddDoctor.cshtml",
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Patients/AddDoctor.cshtml",
       "TargetPath": "Views\\Patients\\AddDoctor.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Doctors/Index.cshtml",
-      "TargetPath": "Views\\Doctors\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Specialties/Create.cshtml",
-      "TargetPath": "Views\\Specialties\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Specialties/Edit.cshtml",
-      "TargetPath": "Views\\Specialties\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Specialties/Index.cshtml",
-      "TargetPath": "Views\\Specialties\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Patients/Delete.cshtml",
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Patients/Delete.cshtml",
       "TargetPath": "Views\\Patients\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Doctors/Details.cshtml",
-      "TargetPath": "Views\\Doctors\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Doctors/Create.cshtml",
-      "TargetPath": "Views\\Doctors\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Shared/Footer.cshtml",
-      "TargetPath": "Views\\Shared\\Footer.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Specialties/Details.cshtml",
-      "TargetPath": "Views\\Specialties\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Patients/Details.cshtml",
-      "TargetPath": "Views\\Patients\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Specialties/Delete.cshtml",
-      "TargetPath": "Views\\Specialties\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Patients/Index.cshtml",
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Patients/Index.cshtml",
       "TargetPath": "Views\\Patients\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Doctors/Delete.cshtml",
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Doctors/Index.cshtml",
+      "TargetPath": "Views\\Doctors\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Patients/Details.cshtml",
+      "TargetPath": "Views\\Patients\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Specialties/Edit.cshtml",
+      "TargetPath": "Views\\Specialties\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Doctors/Create.cshtml",
+      "TargetPath": "Views\\Doctors\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Doctors/Edit.cshtml",
+      "TargetPath": "Views\\Doctors\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Patients/Create.cshtml",
+      "TargetPath": "Views\\Patients\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Shared/Footer.cshtml",
+      "TargetPath": "Views\\Shared\\Footer.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Specialties/Details.cshtml",
+      "TargetPath": "Views\\Specialties\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Doctors/Details.cshtml",
+      "TargetPath": "Views\\Doctors\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Specialties/Create.cshtml",
+      "TargetPath": "Views\\Specialties\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Doctors/Delete.cshtml",
       "TargetPath": "Views\\Doctors\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Patients/Edit.cshtml",
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Patients/Edit.cshtml",
       "TargetPath": "Views\\Patients\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/iangregg/Desktop/DoctorsOffice.solution/DoctorsOffice/Views/Patients/Create.cshtml",
-      "TargetPath": "Views\\Patients\\Create.cshtml",
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Specialties/Index.cshtml",
+      "TargetPath": "Views\\Specialties\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/taylor/Desktop/Doctors-Office-Solution/DoctorsOffice/Views/Specialties/Delete.cshtml",
+      "TargetPath": "Views\\Specialties\\Delete.cshtml",
       "FileKind": "mvc"
     }
   ],
