@@ -38,7 +38,7 @@ namespace DoctorsOffice.Controllers
     public ActionResult Edit(Patient patient, int DoctorId)
     {
       _db.Entry(patient).State = EntityState.Modified;
-      
+
       _db.SaveChanges();
       return RedirectToAction("Details", new {id = patient.PatientId});
     }

@@ -4,9 +4,9 @@ body  {
 }
 
 .container {
-  background-color: rgba(245, 245, 245, 0.75);
+  background-color: rgba(245, 245, 245, 0.80);
   border-style: ridge;
-  border-color: rgba(32, 17, 17, 0.75);
+  border-color: rgba(32, 17, 17, 0.85);
   border-radius: 15px;
 }
 
@@ -17,5 +17,8 @@ h2  {
   font-family: 'Recursive', sans-serif;
 }
 li {
-  font-family: 'Cinzel', serif;
+  font-family: 'Quicksand', serif;
+}
+input {
+  font-family: 'Antic Slab', serif;
 }
