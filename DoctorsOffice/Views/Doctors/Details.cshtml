@@ -7,11 +7,11 @@
 <h2>Doctor Details</h2>
 <hr />
 <h3>@Html.DisplayFor(model => model.Name)</h3>
-<h5>@Html.DisplayFor(model => model.Specialty)</h5>
+<h5>Dr. of @Html.DisplayFor(model => model.Specialty)</h5>
 
-@if(@Model.Patients.Count == 0)
+@if(@Model.Patients.Count() == 0)
 {
-  <p>No doctors are showing up.</p>
+  <p>This doctor has no patients assigned to them yet.</p>
 }
 else
 {
@@ -20,12 +20,13 @@ else
       <ul>
       @foreach(var join in Model.Patients)
       {
-        <li class="col-sm-9">@join.Patient.Name</li>
+        <li class="col-sm-9">@Html.ActionLink(@join.Patient.Name, "Details", "Patients", new { id = @join.Patient.PatientId})</li>
       }
       </ul>
   </div>
 }
 <hr>
+<input type="button" value="Add Patient to this Doc" onclick="location.href='@Url.Action("Create", "Patients", new { id = Model.DoctorId })';" class="btn btn-outline-primary" />
 <input type="button" value="Edit Doctor" onclick="location.href='@Url.Action("Edit", "Doctors", new { id = Model.DoctorId })';" class="btn btn-primary" />
 <input type="button" value="Delete Doctor" onclick="location.href='@Url.Action("Delete", "Doctors", new { id = Model.DoctorId })';" class="btn btn-primary" />
 <input type="button" value="Doctor List" onclick="location.href='@Url.Action("Index", "Doctors")';" class="btn btn-primary" />

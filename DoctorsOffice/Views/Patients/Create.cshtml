@@ -10,11 +10,14 @@
 {
     @Html.LabelFor(model => model.Name)
     @Html.TextBoxFor(model => model.Name)
-
+    <br>
+    @Html.LabelFor(model => model.Affliction)
+    @Html.TextBoxFor(model => model.Affliction)
+    <br>
     @Html.Label("Select doctor")
     @Html.DropDownList("DoctorId")
-
-  <input type="submit" value="Add new patient" class="btn btn-default" />
+    <br>
+  <input type="submit" value="Add new patient" class="btn btn-outline-dark" />
 }
 <hr>
 <input type="button" value="Patient List" onclick="location.href='@Url.Action("Index", "Patients")';" class="btn btn-primary" />

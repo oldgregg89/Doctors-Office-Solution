@@ -6,7 +6,7 @@
 // {
 //   public class Specialty
 //   {
-//     public Speciality()
+//     public Specialty()
 //     {
 //       this.Doctors = new HashSet<DoctorSpecialty>();
 //     }

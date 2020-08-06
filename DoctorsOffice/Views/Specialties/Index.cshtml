@@ -1,0 +1,21 @@
+@* @{
+  Layout = "_Layout";
+}
+
+@using DoctorsOffice.Models;
+@model List<DoctorsOffice.Models.Specialty>;
+
+<h1>Specialties</h1>
+
+@if (@Model.Count == 0)
+{
+  <h3>No doctors have been added yet!</h3>
+} 
+
+@foreach (Specialty specialty in Model)
+{
+  <li>@Html.ActionLink($"{specialty.Type}", "Details", new { id = specialty.SpecialtyId })</li>
+}
+<hr>
+<input type="button" value="Add new doctor" onclick="location.href='@Url.Action("Create", "Doctors")';" class="btn btn-primary" />
+<input type="button" value="Return Home" onclick="location.href='@Url.Action("Index", "Home")';" class="btn btn-primary" /> *@

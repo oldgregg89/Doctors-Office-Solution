@@ -13,7 +13,10 @@
     @Html.HiddenFor(model => model.PatientId)
     @Html.LabelFor(model => model.Name)
     @Html.EditorFor(model => model.Name)
-
+    <br>
+    @Html.LabelFor(model => model.Affliction)
+    @Html.EditorFor(model => model.Affliction)
+    <br>
     @Html.Label("Select doctor")
     @Html.DropDownList("DoctorId")
 
